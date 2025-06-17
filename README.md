@@ -81,7 +81,7 @@ Tools are grouped by:
 - 🧠 **Threat Intelligence**
 - 🕹️ **ICS/IoT/SCADA**
 - 🔐 **Application Security (AppSec)**
----
+----
 
 ## 🧩 Contributing
 
