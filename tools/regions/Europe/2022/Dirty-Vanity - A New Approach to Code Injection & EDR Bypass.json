@@ -1,0 +1,15 @@
+{
+    "Tool Name": "Dirty Vanity: A New Approach to Code Injection & EDR Bypass",
+    "Speakers": [
+        "Eliran Nissan"
+    ],
+    "Tracks": [
+        "Malware",
+        "Defense"
+    ],
+    "Event": "BH-ARSENAL",
+    "Github URL": "https://github.com/deepinstinct/Dirty-Vanity",
+    "Description": "\"Dirty Vanity\". This technique challenges current injection detection and prevention means while opening a wider spectrum of attacks that challenges common concepts of EDR TTPs.This technique abuses the lesser-known forking mechanism which is built in Windows operating systems.",
+    "Year": "2022",
+    "Location": "Europe"
+}
