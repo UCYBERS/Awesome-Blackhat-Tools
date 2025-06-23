@@ -245,6 +245,15 @@ ThunderCloud version 2 will now support GCP and Azure exploitation. Additionally
 
 </details>
 
+<details><summary><strong>Dirty Vanity: A New Approach to Code Injection & EDR Bypass</strong></summary>
+
+![Category: 🔴 Red Teaming](https://img.shields.io/badge/Category:%20🔴%20Red%20Teaming-red) ![Eliran Nissan](https://img.shields.io/badge/Eliran%20Nissan-informational)
+
+🔗 **Link:** [A New Approach to Code Injection & EDR Bypass](https://github.com/deepinstinct/Dirty-Vanity)  
+📝 **Description:** "This technique challenges current injection detection and prevention means while opening a wider spectrum of attacks that challenges common concepts of EDR TTPs.This technique abuses the lesser-known forking mechanism which is built in Windows operating systems."
+
+</details>
+
 ---
 ## 🔵 Blue Team & Detection
 <details><summary><strong>CQSysmon Toolkit: Advanced System Monitoring Toolkit</strong></summary>
