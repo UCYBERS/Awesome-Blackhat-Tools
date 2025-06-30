@@ -7,7 +7,7 @@ Tools are categorized based on their **track theme**, such as Red Teaming, OSINT
 - [🔴 Red Teaming](#-red-teaming)
 - [🔵 Blue Teaming](#-blue-teaming)
 - [🔍 OSINT & Recon](#-osint--recon)
-- [⚙️ Exploit Development](%EF%B8%8F-exploit-development)
+- [⚙️ Exploit Development](#%EF%B8%8F-exploit-development)
 - [🧪 Malware Analysis](#-malware-analysis)
 - [🛠️ DFIR & Forensics](#%EF%B8%8F-dfir--forensics)
 - [🧠 Threat Intelligence](#-threat-intelligence)
