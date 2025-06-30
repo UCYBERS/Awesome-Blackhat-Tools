@@ -1,7 +1,7 @@
 
 ![balckhat](https://github.com/user-attachments/assets/de100353-c270-4699-a3dd-4a6713c93ea0)
 
-# Awesome Black Hat Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Last Update](https://img.shields.io/badge/Updated-June%202025-blue)](https://github.com/UCYBERS/Awesome-BlackHat-Tools)
+# Awesome Black Hat Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Last Update](https://img.shields.io/badge/Updated-July%202025-blue)](https://github.com/UCYBERS/Awesome-BlackHat-Tools)
 
 🚀 A curated collection of real-world tools officially presented at Black Hat events — the leading cybersecurity conferences where experts showcase cutting-edge offensive, defensive, and research-driven tools.
 
