@@ -15,27 +15,26 @@ Tools are categorized based on their **track theme**, such as Red Teaming, OSINT
 - [🔐 Application Security (AppSec)](#-application-security-appsec)
 ---
 ## 🔴 Red Teaming
-- <details><summary><strong>.NET Unpacking: When Frida Gets the JIT out of It</strong></summary>
+- ### Exploitation and Ethical Hacking
+  - <details><summary><strong>Kong Loader: The hidden ART of rolling shellcode decryption</strong></summary>
 
-  ![Category: 🧠 Reverse Engineering](https://img.shields.io/badge/Category:%20🧠%20Reverse%20Engineering-orange) ![Yohann Sillam](https://img.shields.io/badge/Yohann%20Sillam-informational)
+    ![Category: 🔴 Red Teaming](https://img.shields.io/badge/Category:%20🔴%20Red%20Teaming-red) ![Tijme Gommers](https://img.shields.io/badge/Tijme%20Gommers-informational)
 
-  🔗 **Link:** Not Available  
-  📝 **Description:** None
+    🔗 **Link:** [**github**](https://github.com/tijme/kong-loader)  
+    📝 **Description:** Kong Loader is a completely new concept of loading shellcode. It prevents malware from being visible in memory *entirely* and *whatsoever*, even while executing commands, reinventing existing sleep mask techniques. For each assembly instruction, Kong Loader decrypts that specific assembly instruction, executes it, and encrypts it again. This means only the currently executing instruction is visible in memory.
 
-</details>
+    It comes with dangerous benefits for offensive security experts, and with new complex challenges for defenders & malware analysts. We'll cover that all, and Kong Loader will be published right after, so you can start experimenting with it yourself.
 
-- <details><summary><strong>Revela: Unlock the Secrets of Move Smart Contracts</strong></summary>
+  </details>
 
-  ![Category: 🧠 Reverse Engineering](https://img.shields.io/badge/Category:%20🧠%20Reverse%20Engineering-orange) ![Quynh Nguyen](https://img.shields.io/badge/Quynh%20Nguyen-informational) ![Van Hoa Nguyen](https://img.shields.io/badge/Van%20Hoa%20Nguyen-informational) ![Thanh Nguyen](https://img.shields.io/badge/Thanh%20Nguyen-informational)
+   - <details><summary><strong>Kubernetes Goat: A Hands-on Interactive Kubernetes Security Playground</strong></summary>
 
-  🔗 **Link:** Not Available  
-  📝 **Description:** Powered by the secure and robust Move language, emerging blockchains like Aptos and Sui are gaining rapid popularity. However, their increasingly complex smart contracts, which are often entrusted with valuable assets, need to provide users with the ability to verify the code safety. Unfortunately, it has become common for Move-based protocols to be deployed solely in low-level bytecode form, without accompanying source code. Therefore, reconstructing the original source of the on-chain contracts is essential for users and security researchers to thoroughly examine, evaluate and enhance security.
+      ![Category: 🔴 Red Teaming](https://img.shields.io/badge/Category:%20🔴%20Red%20Teaming-red) ![Tijme Gommers](https://img.shields.io/badge/Tijme%20Gommers-informational)
 
+      🔗 **Link:** [**github**](https://github.com/tijme/kong-loader)  
+      📝 **Description:** Kong Loader is a completely new concept of loading shellcode. It prevents malware from being visible in memory *entirely* and *whatsoever*, even while executing commands, reinventing existing sleep mask techniques. For each assembly instruction, Kong Loader decrypts that specific assembly instruction, executes it, and encrypts it again. This means only the currently executing instruction is visible in memory.
 
-  This talk introduces Revela, the first-ever open-source tool designed to decompile Move bytecode back to its original source code, empowering users and researchers with newfound transparency. We will explain how our tool leverages advanced static analysis techniques to recover the original source code structure, including modules, functions, and data types.
-
-
-  The presentation will include some live demonstrations of using Revela to decompile Move bytecode from online transactions. Additionally, we will showcase how our decompiler can be utilized to uncover vulnerabilities in closed-source protocols running on Aptos and Sui blockchains.
+      It comes with dangerous benefits for offensive security experts, and with new complex challenges for defenders & malware analysts. We'll cover that all, and Kong Loader will be published right after, so you can start experimenting with it yourself.
 
 </details>
 
