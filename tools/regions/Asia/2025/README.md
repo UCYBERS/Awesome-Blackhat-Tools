@@ -29,16 +29,68 @@ Tools are categorized based on their **track theme**, such as Red Teaming, OSINT
 
    - <details><summary><strong>Kubernetes Goat: A Hands-on Interactive Kubernetes Security Playground</strong></summary>
 
-      ![Category: 🔴 Red Teaming](https://img.shields.io/badge/Category:%20🔴%20Red%20Teaming-red) ![Tijme Gommers](https://img.shields.io/badge/Tijme%20Gommers-informational)
+      ![Category: 🔴 Red Teaming](https://img.shields.io/badge/Category:%20🔴%20Red%20Teaming-red) ![Madhu Akula](https://img.shields.io/badge/Madhu%20Akula-informational)
 
-      🔗 **Link:** [**github**](https://github.com/tijme/kong-loader)  
-      📝 **Description:** Kong Loader is a completely new concept of loading shellcode. It prevents malware from being visible in memory *entirely* and *whatsoever*, even while executing commands, reinventing existing sleep mask techniques. For each assembly instruction, Kong Loader decrypts that specific assembly instruction, executes it, and encrypts it again. This means only the currently executing instruction is visible in memory.
+      🔗 **Link:**   
+      📝 **Description:** Containers are everywhere, and Kubernetes has become the de facto standard for deploying, managing, and scaling containerized workloads. Yet security issues continue to emerge in the wild daily, ranging from simple misconfigurations to sophisticated attacks. In this session, I'll introduce Kubernetes Goat, an interactive security playground designed to help you master the skills needed to hack and secure your Kubernetes clusters and container workloads.
 
-      It comes with dangerous benefits for offensive security experts, and with new complex challenges for defenders & malware analysts. We'll cover that all, and Kong Loader will be published right after, so you can start experimenting with it yourself.
+      Kubernetes Goat is an open-source platform featuring intentionally vulnerable scenarios within a Kubernetes cluster. From common vulnerabilities to notorious real-world attack patterns, each scenario is crafted to reflect actual security challenges - not theoretical simulations. Join me, the creator of Kubernetes Goat, as we dive deep into cluster vulnerabilities and emerge with practical defense strategies. Get ready to hack, learn, and shield your clusters!
 
-</details>
+    </details>
+
+   - <details><summary><strong>KubeAPI-Inspector:discover the secrets hidden in apis</strong></summary>
+
+      ![Category: 🔴 Red Teaming](https://img.shields.io/badge/Category:%20🔴%20Red%20Teaming-red) ![Qiqi Xu](https://img.shields.io/badge/Qiqi%20Xu-informational)
+
+        🔗 **Link:** [**github**](https://github.com/thomasxm/BOAZ)  
+        📝 **Description:** Due to the rapid development of cloud-native technologies, an increasing number of popular applications are extending Kubernetes' control plane functionalities through extension apiserver.
+          With Kubernetes being centered around a declarative API, we have designed a tool specifically for this scenario. This tool aims to efficiently and automatically discover hidden vulnerable APIs within the cluster.
+        Additionally, we will publish a vulnerability pattern for the first time,which occurs when the golang struct embedding and promoted methods are used improperly, and demonstrate this problem through a workshop, this problem which could potentially lead to API endpoint authentication failures, thereby jeopardizing the entire cluster.
+
+      </details>
+
+   - <details><summary><strong>BOAZ: Development of a Multilayered Evasion Tool and Methodology</strong></summary>
+
+      ![Category: 🔴 Red Teaming](https://img.shields.io/badge/Category:%20🔴%20Red%20Teaming-red) ![Thomas Meng](https://img.shields.io/badge/Thomas%20Meng-informational)
+
+        🔗 **Link:** Not Available  
+        📝 **Description:** BOAZ (Bypass, Obfuscate, Adapt, Zero-Trust) evasion was inspired by the concept of multi-layered approach which is the evasive version of defence-in-depth first proposed by at BH USA14 [1]. BOAZ was developed to provide greater control over combinations of evasion methods, enabling more granular evaluations against antivirus and EDR. It is designed to bypass both before and during execution detections that span signature, heuristic and behavioural detection techniques [2].
+
+        BOAZ supports both x86/x64 binary (PE) or raw payload as input and output EXE or DLL. It has been tested on separated Window-11 Enterprise VMs (version: 22H2, 22621.1992) with 14 Desktop AVs installed include Windows Defender, Norton, BitDefender and ESET. The design of BOAZ evasion is modular, so users can add their own toolset or techniques to the framework. One advantage of this approach is that if a specific technique's signature become known to antivirus, researchers can easily adjust the technique to verify it and either improve or swap a new technique to that detection. This process is described as a query-modify-query attack process, where the attacker can improve based on feedback from black-box engines until their sample is fully undetectable (FUD) [3].
+
+        BOAZ is written in C++ and C and uses Python3 as the main linker to integrate all modules. There have been significant improvements implemented since its inception. The new features of the BOAZ evasion tool, set to be released at BH Asia 2025, include two novel process injection primitives, along with newly implemented loaders and behavioural evasion techniques.
+
+      </details>
+
+    - <details><summary><strong>KernelGoat</strong></summary>
+
+      ![Category: 🔴 Red Teaming](https://img.shields.io/badge/Category:%20🔴%20Red%20Teaming-red) ![Shivankar Madaan](https://img.shields.io/badge/Shivankar%20Madaan-informational)
+
+        🔗 **Link:** Not Available  
+        📝 **Description:** "KernelGoat is a 'Vulnerable by Design' Linux kernel environment to learn and practice Kernel security issues"
+
+        There are a lot of resources, playgrounds, CTF's for user-land based exploitation scenarios. However when it comes to Kernel based exploitation, especially Linux there aren't many vulnerable by design labs.
+
+        The setup steps are very simple and do not require the user to spend enormous time on setup and instead focus on exploiting the vulnerability itself.
+
+        Few of vulnerabilities the users can get experience exploiting are
+
+        Arbitrary Read
+        Stack Overflow
+        Null pointer dereference
+        Race condition
+        Use After Free
+        Heap Overflow
+        Off-By-One Vulnerability
+        Uninitialized Stack Variables
+        Double Free
+
+        This tool is being developed by students from T.John Engineering College Bangalore. Divya M, Archana BS, Allen Sam and Sujitha Palanadan
+
+      </details>
 
 ---
+
 ## 🔵 Blue Teaming
 - <details><summary><strong>AceTheGame</strong></summary>
 
