@@ -89,6 +89,22 @@ Tools are categorized based on their **track theme**, such as Red Teaming, OSINT
 
       </details>
 
+    - <details><summary><strong>RedInfraCraft : Automate Complex Red Team Infra</strong></summary>
+
+      ![Category: 🔴 Red Teaming](https://img.shields.io/badge/Category:%20🔴%20Red%20Teaming-red) ![Yash Bharadwaj](https://img.shields.io/badge/Yash%20Bharadwaj-informational) ![Manish Gupta](https://img.shields.io/badge/Manish%20BGupta-informational)
+
+        🔗 **Link:** [**github**](https://github.com/RedTeamOperations/Red-Infra-Craft)  
+        📝 **Description:** RedInfraCraft is a solution for automating the deployment of powerful red team infrastructures. It streamlines the setup and management of :
+
+        - Individual Red Team Components (C2, Payload, Redirector Server etc.)
+        - On-premise / Cloud services re-director support
+        - Complete Red Team Infrastructure (Redirector Load Balancer C2, Payload server, phishing server etc)
+        - Phishing Operations
+        - Infrastructure deployment support in AWS, Azure & GCP Cloud including multi-cloud support.
+
+        Dilute your time to setup Red Team Infrastructure in 5 minutes with RedInfraCraft
+      </details>
+
 ---
 
 ## 🔵 Blue Teaming
