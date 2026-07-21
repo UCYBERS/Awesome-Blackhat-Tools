@@ -130,6 +130,6 @@ Content is shared under the [CC0 1.0 Universal](LICENSE) license — free to use
 
 
 
-### 🔧 Maintained by [UCYBERS](https://ucybers.com/) | Last Updated: 2025
+### 🔧 Maintained by [UCYBERS](https://ucybers.com/) | Last Updated: 2026
 
 ### 🎩 Happy Hacking from the Black Hat side!
